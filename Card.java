@@ -52,12 +52,12 @@ public class Card {
         // Build the file path based on color and num
         int intNum = convertWordToNumber(num.toString());
         if (intNum != -1) {
-            fileName = color.toString().toLowerCase() + "_" + String.valueOf(intNum) + ".png";
+            fileName = "images/" + color.toString().toLowerCase() + "_" + String.valueOf(intNum) + ".png";
 
             // numeric value
         } else {
 
-            fileName = color.toString().toLowerCase() + "_" + num.toString().toLowerCase()+ ".png";
+            fileName = "images/" + color.toString().toLowerCase() + "_" + num.toString().toLowerCase()+ ".png";
 
         }
         return folderPath + fileName;

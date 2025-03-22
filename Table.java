@@ -135,7 +135,7 @@ public class Table extends JPanel
 
             // Create a panel to display the winner
             JPanel winnerPanel = new JPanel();
-            winnerPanel.add(new JLabel(new ImageIcon("win.jpg")));
+            winnerPanel.add(new JLabel(new ImageIcon("images/win.jpg")));
 
             // Adjust the font size based on your design
             float newSize = 20.0f;
@@ -191,7 +191,7 @@ public class Table extends JPanel
         int x = getWidth() - WIDTH/4;
         int y = getHeight() - HEIGHT/4*3;
 
-        ImageIcon deckImage = new ImageIcon("card_back_alt.png"); // Assuming you have a deck image
+        ImageIcon deckImage = new ImageIcon("images/card_back_alt.png");
         deckImage.paintIcon(this, g, x-65, y-91);
     }
 

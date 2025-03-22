@@ -53,7 +53,7 @@ public class Driver implements ActionListener, MouseListener {
         playerNum.addActionListener(this);
         play.setEnabled(false);
 
-        frame.getContentPane().add(frame.add(new JLabel(new ImageIcon("card_back_large.png"))),BorderLayout.CENTER);
+        frame.getContentPane().add(frame.add(new JLabel(new ImageIcon("images/card_back_large.png"))),BorderLayout.CENTER);
         frame.getContentPane().add(buttonPanel,BorderLayout.SOUTH);
         frame.pack();
         frame.setVisible(true);
